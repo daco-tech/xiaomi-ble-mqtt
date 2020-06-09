@@ -1,0 +1,1 @@
+*/5 * * * * /usr/bin/python3 /usr/src/app/data-read.py >> /usr/src/app/log/xiaomi-ble.log 2>&1

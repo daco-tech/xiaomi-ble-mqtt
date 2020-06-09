@@ -52,3 +52,9 @@ MQTT Payload example:
 
     {"temperature": 25.7, "humidity": 42.0, "battery": 100}
 
+# Run in Docker
+
+Create the configuration ini files like described above. 
+
+Run: sudo start-docker.sh on your device (Tested with Raspberry Pi 3)
+

@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  xiaomi-ble-mqtt:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    privileged: true
+    network_mode: host
+    restart: always
